@@ -1,5 +1,7 @@
 body {
-  background-color: rgba(181, 181, 181, 0.2);
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #002E62;
 }
 
@@ -10,9 +12,10 @@ h1, p {
 .main-container {
   height: 300px;
   width: 40%;
-  min-width: 450px;
+  min-width: 350px;
+  max-width: 95%;
   border-radius: 2px;
-  margin: 100px auto;
+  margin: 200px auto;
   padding: 30px 20px 30px 20px;
   text-align: left;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
