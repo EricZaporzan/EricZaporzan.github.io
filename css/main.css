@@ -1,0 +1,103 @@
+body {
+  background-color: rgba(181, 181, 181, 0.2);
+  color: #002E62;
+}
+
+h1, p {
+  margin-left: 23px;
+}
+
+.main-container {
+  height: 300px;
+  width: 40%;
+  min-width: 450px;
+  border-radius: 2px;
+  margin: 100px auto;
+  padding: 30px 20px 30px 20px;
+  text-align: left;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: white;
+}
+
+.icon-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+
+  margin: 50px auto 50px auto;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #002E62;
+  border-bottom: 1px dotted #002E62;
+}
+
+a:hover {
+  color: #990000;
+  border-bottom: 1px dotted #990000;
+}
+
+.icon {
+  flex-grow: 1;
+  border-bottom: none;
+}
+
+.icon, .icon:visited {
+  color: #002E62;
+}
+
+.icon:hover {
+  color: #990000;
+  border-bottom: none;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
