@@ -10,7 +10,7 @@ h1, p {
 }
 
 .main-container {
-  height: 300px;
+  min-height: 300px;
   width: 40%;
   min-width: 350px;
   max-width: 95%;
